@@ -19,6 +19,36 @@ let isLoggedIn= false
 
 //user defined 
 //object
+//arrays
 
-console.log(typeof Name)
-console.log(typeof null)
+// console.log(typeof Name)
+// console.log(typeof null)
+
+const id=Symbol('123')
+const anotherid=Symbol('123')
+
+console.log(id)
+console.log(anotherid)
+console.log(id===anotherid) //Looks identical but are not equal
+
+
+const bigNumber=335464498490545n //bigint
+
+const heroes=["shaktiman","naagraj","doga"];
+
+let myobj={
+    name: "Sameer",
+    age:"20"
+}
+
+const Myfunc=function () {
+    console.log("Hello World");
+}
+
+console.log(typeof Myfunc);   //gives function
+
+console.log(typeof heroes);   //gives object
+
+console.log(typeof heroes);   //gives object
+
+//Stack(Primitive)  and //Heap(Non-primitive)
