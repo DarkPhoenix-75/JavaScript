@@ -52,3 +52,13 @@ console.log(typeof heroes);   //gives object
 console.log(typeof heroes);   //gives object
 
 //Stack(Primitive)  and //Heap(Non-primitive)
+
+/*JS stores primitve datatypes in Stack and they are immutable and stored as value.
+That means each variable gets its own copy of the value.
+Changing the copy doesn't chagne the original
+
+Meanwhile Js stoes non-primitive datatypes in Heap. These are stored by reference in the heap.
+That means both obj1 and obj2 point to the same memory location in the heap.
+Changing one affects the other.
+
+*/
