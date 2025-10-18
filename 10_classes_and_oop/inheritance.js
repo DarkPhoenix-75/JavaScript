@@ -10,8 +10,8 @@ class User{
 
 class Teacher extends User{
     constructor(username,email,password){
-        super(username)
-        this.email=email
+        super(username)      //SuperKeyword
+        this.email=email 
         this.password=password
     }
 
@@ -31,4 +31,4 @@ chai.logMe()
 // console.log(chai==masalaChai);
 // console.log(chai==Teacher);
 
-console.log(chai instanceof User);
+console.log(chai instanceof User);   //     Checks whether it is parent or not
