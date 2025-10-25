@@ -35,8 +35,7 @@ The call stack keeps track of all active execution contexts.
 The Call Stack is a data structure (stack) that the JavaScript engine uses to keep track of function calls — i.e., which function is currently running and which function should run next.
 
 1. When program starts → GEC is created .
-2. When Function(same for nested but it follows Lifo) is called   it is pushed into the call stack .
+2. When Function(same for nested but it follows Lifo) is called , it is pushed into the call stack .
 3. And when it returns it is popped off .
 4. When program ends → GEC is popped off → stack is empty ✅ .
 */
-
